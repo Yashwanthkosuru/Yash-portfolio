@@ -1,10 +1,18 @@
 import { Quote } from "lucide-react";
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 
+import Tower2024 from "@/assets/Tower Of The Team - Rajitha - 2024.png";
+import RockStar2023 from "@/assets/Rock Star - Minnu - 2023.png";
+import Tower2023 from "@/assets/Tower of the Team - Rajitha - 2023.png";
+import KeepUp2023 from "@/assets/Keep Up the Good Work - Rajitha - 2023.png";
+import LearningChamp2023 from "@/assets/Learning Champ - Rajitha - 2023.png";
+import RisingStar2022 from "@/assets/Rising Star - Rajitha - 2022.png";
+
+
 const appreciations = [
   {
     badge: "Tower Of The Team",
-    badgeImage: "src/assets/Tower Of The Team - Rajitha - 2024.png",
+    badgeImage: Tower2024,
     quote: "Your dedication on the PUMA GraphQL project have been invaluable. You're an asset to any team! Your significant contributions to the development activities have been instrumental in helping the team stay on track. Thanks Yashwanth.",
     name: "Rajitha Raj",
     designation: "Senior Technology Architect",
@@ -12,7 +20,7 @@ const appreciations = [
   },
   {
     badge: "Rock Star",
-    badgeImage: "src/assets/Rock Star - Minnu - 2023.png",
+    badgeImage: RockStar2023,
     quote: "Rock Star:- You are a rock star performer. Thank you for all the contributions and keeping the flag flying despite the odds.",
     name: "Minnu Kurian",
     designation: "Technology Lead",
@@ -20,7 +28,7 @@ const appreciations = [
   },
   {
     badge: "Tower Of The Team",
-    badgeImage: "src/assets/Tower of the Team - Rajitha - 2023.png",
+    badgeImage: Tower2023,
     quote: "Thank you for always being there to support DirecTV team. You are an exceptional team player, highly brilliant and very much dedicated. Your contributions are highly remarkable for the project. Good Work Yashwanth. Way to go..!!",
     name: "Rajitha Raj",
     designation: "Senior Technology Architect",
@@ -28,7 +36,7 @@ const appreciations = [
   },
   {
     badge: "Keep Up The Good Work",
-    badgeImage: "src/assets/Keep Up the Good Work - Rajitha - 2023.png",
+    badgeImage: KeepUp2023,
     quote: "Good Work in finishing last minute production production fixes for DirecTV. You are an valuable asset to the team. Keep up the good work Yashwanth.",
     name: "Rajitha Raj",
     designation: "Technical Architect",
@@ -36,7 +44,7 @@ const appreciations = [
   },
   {
     badge: "Learning Champ",
-    badgeImage: "src/assets/Learning Champ - Rajitha - 2023.png",
+    badgeImage: LearningChamp2023,
     quote: "Your technical contributions and commitment are awesome Yashwanth. You are always open for taking up any new challenge and ensure its completed with at most perfection. Have seen the talent in you while getting each POC done.",
     name: "Rajitha Raj",
     designation: "Technical Architect",
@@ -44,7 +52,7 @@ const appreciations = [
   },
   {
     badge: "Rising Star",
-    badgeImage: "src/assets/Rising Star - Rajitha - 2022.png",
+    badgeImage: RisingStar2022,
     quote: "You are truly a Rising Star and destined for greater things. Keep that energy up and wish you all the best. Thanks for helping team with quick code turnaround, with good quality and ensuring all impacts are properly covered.",
     name: "Rajitha Raj",
     designation: "Technical Architect",
