@@ -50,7 +50,7 @@ const Navbar = () => {
 
         <div className="hidden md:block">
           <Button asChild variant="hero" size="default" className="gap-2">
-            <a href="/assets/Yashwanth_A_K_Cover.pdf" download>
+            <a href="/assets/Yashwanth_AK_Cover.pdf" download>
               <Download className="w-4 h-4" />
               Download CV
             </a>
@@ -81,7 +81,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button variant="hero" size="default" className="mt-4 gap-2">
-              <a href="/assets/Yashwanth_A_K_Cover.pdf" download>
+              <a href="/assets/Yashwanth_AK_Cover.pdf" download>
                 <Download className="w-4 h-4" />
                 Download CV
               </a>

@@ -61,7 +61,7 @@ const HeroSection = () => {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button asChild variant="heroOutline" size="xl" className="gap-2">
-                <a href="/assets/Yashwanth_A_K_Resume.pdf" download>
+                <a href="/assets/Yashwanth_AK_Resume.pdf" download>
                   <Download className="w-5 h-5" />
                   Download Resume
                 </a>
