@@ -15,7 +15,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <a
-              href="https://linkedin.com/in/yashwanth-kosuru-a65343159/"
+              href="https://www.linkedin.com/in/yashwanth-a-kosuru/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 glass-card rounded-lg hover:neon-border transition-all duration-300 hover:-translate-y-1"
@@ -28,12 +28,20 @@ const Footer = () => {
             >
               <Mail className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
             </a>
+            <a
+              href="https://github.com/Yashwanthkosuru"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 glass-card rounded-lg hover:neon-border transition-all duration-300 hover:-translate-y-1"
+            >
+              <Github className="w-5 h-5 text-muted-foreground hover:text-primary transition-colors" />
+            </a>
           </div>
 
           {/* Copyright */}
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <span>© 2024 Made with</span>
-            <Heart className="w-4 h-4 text-primary fill-primary" />
+            <span>© 2024 Made</span>
+            {/* <Heart className="w-4 h-4 text-primary fill-primary" /> */}
             <span>by Yashwanth</span>
           </div>
         </div>
