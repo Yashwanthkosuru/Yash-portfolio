@@ -2,53 +2,61 @@ import { ExternalLink, ChevronRight } from "lucide-react";
 import { Button } from "./ui/button";
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 
+import benayatHome from "@/assets/Home-Benayat-bh.png";
+import direcTVHome from "@/assets/DirecTV-home.png";
+import productsPUMA from "@/assets/Puma-products.png";
+
 const projects = [
   {
     title: "Building Permits (Benayat) - Bahrain",
     subtitle: "Enterprise Workflow System",
     tech: ["Java", "Spring Boot", "GraphQL", "PostgreSQL", "Angular", "AWS", "Camunda"],
     highlights: [
-      "Designed & optimized GraphQL APIs (25% faster responses)",
-      "Built backend + UI modules across 5 applications",
-      "Integrated Camunda workflow automation",
-      "Implemented AWS Lambda schedulers + SES notifications",
-      "Modernized legacy Java application",
+      "Designed and optimized GraphQL APIs, achieving ~25% faster response times",
+      "Contributed to backend and UI module development across 5 applications",
+      "Integrated Camunda-based workflow automation for approval systems",
+      "Implemented schedulers and asynchronous SES notifications",
+      "Modernized legacy Java applications to improve maintainability and performance",
+      "Optimized SQL queries and implemented materialized views for faster load times"
     ],
     color: "from-blue-500/20 to-cyan-500/20",
-    image: "src/assets/Home-Benayat-bh.png",
+    image: benayatHome,
     url: "https://www.benayat.bh/",
   },
   {
     title: "AT&T DirecTV - Telecom Order Processing",
     subtitle: "High-Volume Transaction System",
-    tech: ["Java", "Spring Boot", "Redis", "Kafka", "AWS EKS", "Jenkins"],
+    tech: ["Java", "Spring Boot", "Redis Cache", "Kafka", "AWS", "Jenkins", "Swagger", "Kubernetes", "Agile", "AppDynamics", "BitBucket", "JUnit"],
     highlights: [
-      "Delivered features contributing to 50% sales increase",
-      "Implemented JWT/OAuth2 authentication",
-      "Kafka retry automation for failed orders",
-      "Improved CI/CD pipelines and deployments",
-      "Modernized legacy modules",
+      "Contributed to feature development supporting a ~50% increase in sales",
+      "Implemented secure authentication using JWT and OAuth2",
+      "Built Kafka-based retry automation to handle failed order processing",
+      "Improved CI/CD pipelines to enhance deployment reliability and speed",
+      "Implemented Hystrix fallback mechanisms to improve service resilience",
+      "Supported production deployments using Blue-Green and Canary strategies",
+      "Organized knowledge transfer sessions and led code cleanup initiatives to maintain code quality",
+      "Delivered critical production fixes with high reliability under tight timelines",
     ],
     color: "from-purple-500/20 to-pink-500/20",
-    image: "src/assets/DirecTV-home.png",
+    image: direcTVHome,
     url: "https://www.directv.com/",
   },
   {
-    title: "PUMA - Federated GraphQL E-Commerce Platform",
+    title: "PUMA - GraphQL E-Commerce Platform",
     subtitle: "Microservices Architecture & Performance Optimization",
-    tech: ["Node.js", "GraphQL", "Apollo Federation", "React.js", "GCP", "Firestore", "PubSub", "OpenTelemetry", "Stellate", "JMeter"],
+    tech: ["Node.js", "GraphQL", "NX tools", "Apollo Federation", "React.js", "GCP", "Git", "Github Actions", "JMeter", "Firestore", "PubSub", "OpenTelemetry", "Jest"],
     highlights: [
-      "Migrated monolith → federated subgraphs (20% boost)",
-      "Designed LLD for GraphQL Authorization Coprocessor",
-      "Implemented Apollo Router + schema publication",
-      "Firestore caching and Cloud Run deployments",
-      "GKE pipelines with GitHub Actions + Helm",
-      "Added observability & distributed tracing with OpenTelemetry",
-      "Improved cache strategy with Stellate for performance",
-      "Load-tested microservices under heavy scale using JMeter & Vegeta",
+      "Contributed to migrating a monolith architecture to federated GraphQL subgraphs, resulting in ~20% performance improvement",
+      "Designed and implemented GraphQL Coprocessor application to centralize and enforce authorization",
+      "Implemented Apollo Rover, Router setup and managed schema publication workflows",
+      "Implemented Firestore-based caching for Authorization and deployed services on GKE",
+      "Built and maintained GKE deployment pipelines using GitHub Actions and Helm",
+      "Added observability and distributed tracing using OpenTelemetry",
+      "Improved caching strategy using Stellate to enhance GraphQL performance",
+      "Load-tested microservices at scale using JMeter and Vegeta"
     ],
     color: "from-orange-500/20 to-yellow-500/20",
-    image: "src/assets/Puma-products.png",
+    image: productsPUMA,
     url: "https://us.puma.com/us/en",
   },
 ];

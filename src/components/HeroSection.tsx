@@ -1,5 +1,5 @@
 import { Button } from "./ui/button";
-import { ArrowRight, Download } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import developerAvatar from "@/assets/developer-avatar.png";
 
 // Only 3 minimal code icons around profile - positioned at 120° intervals
@@ -58,13 +58,11 @@ const HeroSection = () => {
                 onClick={() => window.open('https://www.linkedin.com/in/yashwanth-a-kosuru/', '_blank')}
               >
                 View LinkedIn
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                <ArrowUpRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button asChild variant="heroOutline" size="xl" className="gap-2">
-                <a href="/assets/Yashwanth_AK_Resume.pdf" download>
-                  <Download className="w-5 h-5" />
-                  Download Resume
-                </a>
+              <Button variant="heroOutline" size="xl" className="group" onClick={() => window.open('https://github.com/Yashwanthkosuru', '_blank')}>
+                  View Github
+                  <ArrowUpRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </div>
 
