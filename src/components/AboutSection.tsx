@@ -3,7 +3,7 @@ import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 import { useState } from "react";
 
 const highlights = [
-  "4+ years in enterprise software development",
+  "5+ years in enterprise software development",
   "Expert in scalable distributed systems",
   "Cloud-native architecture specialist",
   "Legacy modernization experience",
@@ -114,7 +114,7 @@ const AboutSection = () => {
           <div className="space-y-6 md:space-y-8">
             <ScrollAnimationWrapper delay={100}>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed text-center">
-                I'm a passionate Full Stack Developer with over 4 years of experience 
+                I'm a passionate Full Stack Developer with over 5+ years of experience 
                 in designing and implementing enterprise-grade applications. My expertise 
                 spans from building microservices architectures to developing cloud-native 
                 solutions on AWS and GCP platforms.
